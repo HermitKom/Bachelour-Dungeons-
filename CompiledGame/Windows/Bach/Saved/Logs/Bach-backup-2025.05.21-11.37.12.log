@@ -1,0 +1,1268 @@
+﻿Log file open, 05/21/25 14:34:41
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Warning: Failed to set completion port for job object "UE.ShaderCompileWorker.JobGroup": Параметр задан неверно.
+LogWindows: Custom abort handler registered for crash reporting.
+LogCore: Display: UTS: The Unreal Trace Server binary is not available ('../../../Engine/Binaries/Win64/UnrealTraceServer.exe')
+LogTrace: Initializing trace...
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.5-CL-40574608"
+LogCsvProfiler: Display: Metadata set : engineversion="5.5.4-40574608+++UE5+Release-5.5"
+LogCsvProfiler: Display: Metadata set : os="Windows 10 (22H2) [10.0.19045.5854] "
+LogCsvProfiler: Display: Metadata set : cpu="AuthenticAMD|AMD Ryzen 5 5600X 6-Core Processor"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : commandline="" Bach""
+LogCsvProfiler: Display: Metadata set : loginid="c56f3897487d480f22d7a6b29257de0e"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogPakFile: Initializing PakPlatformFile
+LogIoDispatcher: Display: Reading toc: ../../../Bach/Content/Paks/global.utoc
+LogIoDispatcher: Display: Toc loaded : ../../../Bach/Content/Paks/global.utoc, Id=ffffffffffffffff, Order=0, EntryCount=1, SignatureHash=0000000000000000000000000000000000000000
+LogIoDispatcher: Display: Mounting container '../../../Bach/Content/Paks/global.utoc' in location slot 0
+LogPakFile: Display: Initialized I/O dispatcher file backend. Mounted the global container: ../../../Bach/Content/Paks/global.utoc
+LogPakFile: Display: Found Pak file ../../../Bach/Content/Paks/Bach-Windows.pak attempting to mount.
+LogPakFile: Display: Mounting pak file ../../../Bach/Content/Paks/Bach-Windows.pak.
+LogIoDispatcher: Display: Reading toc: ../../../Bach/Content/Paks/Bach-Windows.utoc
+LogIoDispatcher: Display: Toc loaded : ../../../Bach/Content/Paks/Bach-Windows.utoc, Id=33c30b75e1f65bb5, Order=4, EntryCount=2364, SignatureHash=0000000000000000000000000000000000000000
+LogIoDispatcher: Display: Mounting container '../../../Bach/Content/Paks/Bach-Windows.utoc' in location slot 0
+LogPakFile: Display: Mounted IoStore container "../../../Bach/Content/Paks/Bach-Windows.utoc"
+LogFilePackageStore: Mounting container: Id=33c30b75e1f65bb5, Order=4, NumPackages=976
+LogPakFile: Display: Mounted Pak file '../../../Bach/Content/Paks/Bach-Windows.pak', mount point: '../../../'
+LogStats: Stats thread started at 0.127415
+LogAssetRegistry: Premade AssetRegistry loaded from '../../../Bach/AssetRegistry.bin'
+LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+LogICUInternationalization: OS requested locale 'ru-RU' is not supported. Using the OS requested language of 'ru-RU' as the locale.
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +2:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-4C3BB997469F7ED829F233A66E2523E8
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [../../../Bach/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogAudio: Display: Pre-Initializing Audio Device Manager...
+LogAudio: Display: AudioInfo: 'OPUS' Registered
+LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+LogAudio: Display: AudioInfo: 'OGG' Registered
+LogAudio: Display: AudioInfo: 'ADPCM' Registered
+LogAudio: Display: AudioInfo: 'PCM' Registered
+LogAudio: Display: AudioInfo: 'BINKA' Registered
+LogAudio: Display: AudioInfo: 'RADA' Registered
+LogAudio: Display: Audio Device Manager Pre-Initialized
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin ControlRigModules
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin DeformerGraph
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin LiveLink
+LogPluginManager: Mounting Engine plugin RigLogic
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin EngineCameras
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosVD
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin ConcertMain
+LogPluginManager: Mounting Engine plugin ConcertSyncClient
+LogPluginManager: Mounting Engine plugin ConcertSyncCore
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin RenderDocPlugin
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin ColorGrading
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin UMGWidgetPreview
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin SkeletalMeshModelingTools
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin HoldoutComposite
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin EditorDataStorage
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin MetaHumanSDK
+LogPluginManager: Mounting Engine plugin NFORDenoise
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin StudioTelemetry
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin Fab
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin InterchangeAssets
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin PaperZD
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin NNEDenoiser
+LogPluginManager: Mounting Engine plugin NNERuntimeORT
+LogPluginManager: Mounting Engine plugin EOSShared
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin ComputeFramework
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin SQLiteCore
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin StateTree
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin USDCore
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin XInputDevice
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin WorldMetrics
+LogWindows: Failed to load 'WinPixGpuCapturer.dll' (GetLastError=126)
+LogWindows: File 'WinPixGpuCapturer.dll' does not exist
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogConfig: Applying CVar settings from Section [/Script/RenderDocPlugin.RenderDocPluginSettings] File [Engine]
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+LogNFORDenoise: NFORDenoise function starting up
+LogEOSSDK: Initializing EOSSDK Version:1.17.0-39599718
+LogInit: Using libcurl 8.4.0
+LogInit:  - built for Windows
+LogInit:  - supports SSL with OpenSSL/1.1.1t
+LogInit:  - supports HTTP deflate (compression) using libz 1.3
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_HTTP2
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: CreateHttpThread using FCurlMultiPollEventLoopHttpThread
+LogInit: Creating http thread with maximum 2147483647 concurrent requests
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+LogInit: ExecutableName: Bach.exe
+LogInit: Build: ++UE5+Release-5.5-CL-40574608
+LogInit: Platform=Windows
+LogInit: MachineId=c56f3897487d480f22d7a6b29257de0e
+LogInit: DeviceId=
+LogInit: Engine Version: 5.5.4-40574608+++UE5+Release-5.5
+LogInit: Compatible Engine Version: 5.5.0-37670630+++UE5+Release-5.5
+LogInit: Net CL: 37670630
+LogInit: OS: Windows 10 (22H2) [10.0.19045.5854] (), CPU: AMD Ryzen 5 5600X 6-Core Processor             , GPU: NVIDIA GeForce RTX 2060
+LogInit: Compiled (64-bit): Mar  7 2025 14:50:54
+LogInit: Architecture: x64
+LogInit: Compiled with Visual C++: 19.38.33130.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.5
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Users/nekit_mqwt6vj/Documents/Unreal Projects/Bach/CompiledGame/Windows/Bach/Binaries/Win64/
+LogInit: Allocator: Binned2
+LogInit: Installed Engine Build: 0
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogDevObjectVersion: Number of dev versions registered: 40
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 49
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 170
+LogDevObjectVersion:   FortniteValkyrie (8DBC2C5B-54A7-43E0-A768-FCBB7DA29060): 8
+LogDevObjectVersion:   FortniteSeason (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 13
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 15
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 119
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 51
+LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   Dev-NaniteResearch (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogDevObjectVersion:   Dev-RigVM (DC49959B-53C0-4DE7-9156-EA885E7C5D39): 15
+LogDevObjectVersion:   Dev-ControlRig (A7820CFB-20A7-4359-8C54-2C149623CF50): 32
+LogDevObjectVersion:   Dev-IKRig (F6DFBB78-BB50-A0E4-4018-B84D60CBAF23): 2
+LogDevObjectVersion:   Dev-ComputeFramework (6304A3E7-0059-4F59-8CFC-21BD7721FD4E): 0
+LogDevObjectVersion:   Dev-Optimus (93EDE1AA-10CA-7375-4DF9-8A2849B157A0): 12
+LogConfig: Branch 'Lightmass' had been unloaded. Reloading on-demand took 1.34ms
+LogConfig: Branch 'AISupport' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'EnvironmentQueryEditor' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'ACLPlugin' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'AnimationData' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'ControlRigModules' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'ControlRigSpline' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'RigLogic' had been unloaded. Reloading on-demand took 0.26ms
+LogConfig: Branch 'Bridge' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'CameraShakePreviewer' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'EngineCameras' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'ChaosCloth' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'OodleNetwork' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'AnimationSharing' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'ConcertMain' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'ConcertSyncClient' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'DumpGPUServices' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'PixWinPlugin' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'PluginUtils' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'RenderDocPlugin' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'UObjectPlugin' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'AssetManagerEditor' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'BlueprintHeaderView' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'ColorGrading' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'ContentBrowserAssetDataSource' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'DataValidation' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'FacialAnimation' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'GeometryMode' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'LightMixer' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'ObjectMixer' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'SequencerAnimTools' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'SpeedTreeImporter' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'UMGWidgetPreview' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'UVEditor' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'VariantManager' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'SkeletalMeshModelingTools' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'AutomationUtils' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'BackChannel' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'ChaosCaching' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'ChaosEditor' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'ChaosNiagara' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'ChaosSolverPlugin' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'ChaosUserDataPT' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'CharacterAI' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'Dataflow' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'EditorDataStorage' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'Fracture' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'GeometryCollectionPlugin' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'LocalizableMessage' had been unloaded. Reloading on-demand took 0.22ms
+LogConfig: Branch 'NFORDenoise' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'PlatformCrypto' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'PythonScriptPlugin' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'StudioTelemetry' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'NiagaraSimCaching' had been unloaded. Reloading on-demand took 0.22ms
+LogConfig: Branch 'AlembicImporter' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'InterchangeEditor' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'AvfMedia' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'ImgMedia' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'MediaCompositing' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'MediaPlate' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'WebMMedia' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'WmfMedia' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'MeshPainting' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'TcpMessaging' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'UdpMessaging' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'ActorSequence' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'LevelSequenceEditor' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'SequencerScripting' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'TemplateSequence' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'NNEDenoiser' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'NNERuntimeORT' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'EOSShared' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'OnlineBase' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'OnlineServices' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'OnlineSubsystemNull' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'OnlineSubsystemUtils' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'OnlineSubsystem' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'LauncherChunkInstaller' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'ActorLayerUtilities' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'AndroidFileServer' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'AndroidPermission' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'AppleImageUtils' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'ArchVisCharacter' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'AssetTags' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'AudioCapture' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'AudioSynesthesia' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'AudioWidgets' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'CableComponent' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'ChunkDownloader' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'ComputeFramework' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'CustomMeshComponent' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'SQLiteCore' had been unloaded. Reloading on-demand took 0.26ms
+LogConfig: Branch 'ExampleDeviceProfileSelector' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'GeometryCache' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'GeometryProcessing' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'GooglePAD' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'InputDebugging' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'LocationServicesBPLibrary' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'MobilePatchingUtils' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'MsQuic' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'ProceduralMeshComponent' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'PropertyAccessEditor' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'ResonanceAudio' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'SignificanceManager' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'SoundFields' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'WaveTable' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'WebMMoviePlayer' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'WindowsDeviceProfileSelector' had been unloaded. Reloading on-demand took 0.21ms
+LogConfig: Branch 'WindowsMoviePlayer' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'XInputDevice' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'InterchangeTests' had been unloaded. Reloading on-demand took 0.20ms
+LogConfig: Branch 'WorldMetrics' had been unloaded. Reloading on-demand took 0.20ms
+LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC.
+LogStreaming: Display: AsyncLoading2 - Created: Event Driven Loader: false, Async Loading Thread: true, Async Post Load: true
+LogStreaming: Display: AsyncLoading2 - Initialized
+LogInit: Object subsystem initialized
+LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: Set CVar [[r.setres:1280x720]]
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: Set CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+LogConfig: Set CVar [[r.Nanite.Streaming.ReservedResources:1]]
+LogConfig: Set CVar [[r.Nanite.Streaming.AsyncCompute:0	; Temporary workaround for Nanite geometry corruption (FORT-805141)]]
+LogConfig: Set CVar [[D3D12.Bindless.ResourceDescriptorHeapSize:32768]]
+LogConfig: Set CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]]
+LogConfig: Set CVar [[r.PSOPrecache.GlobalShaders:1]]
+LogConfig: Set CVar [[r.DynamicRes.DynamicFrameTime:1]]
+LogConfig: Set CVar [[r.VRS.EnableSoftware:1]]
+LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
+[2025.05.21-11.34.41:234][  0]LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+[2025.05.21-11.34.41:234][  0]LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+[2025.05.21-11.34.41:234][  0]LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+[2025.05.21-11.34.41:234][  0]LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+[2025.05.21-11.34.41:234][  0]LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2025.05.21-11.34.41:234][  0]LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+[2025.05.21-11.34.41:234][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2025.05.21-11.34.41:234][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2025.05.21-11.34.41:234][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[r.GPUCrashDebugging:0]]
+[2025.05.21-11.34.41:234][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[r.ReflectionMethod:1]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[r.GenerateMeshDistanceFields:1]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[r.DynamicGlobalIlluminationMethod:0]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[r.Shadow.Virtual.Enable:0]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[r.AllowStaticLighting:0]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[r.SkinCache.CompileShaders:1]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[r.RayTracing:1]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[r.DefaultFeature.LocalExposure.HighlightContrastScale:0.8]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[r.DefaultFeature.LocalExposure.ShadowContrastScale:0.8]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[r.DefaultFeature.MotionBlur:0]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[r.Mobile.AntiAliasing:0]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure:0]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.Bias:0.000000]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[r.TranslucentSortPolicy:2]]
+[2025.05.21-11.34.41:234][  0]LogConfig: CVar [[TranslucentSortAxis:(X=1.000000,Y=0.000000,Z=0.000000)]] deferred - dummy variable created
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[r.Shaders.RemoveUnusedInterpolators:1]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2025.05.21-11.34.41:234][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[s.AsyncLoadingThreadEnabled:1]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[s.EventDrivenLoaderEnabled:1]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[s.UseBackgroundLevelStreaming:1]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2025.05.21-11.34.41:234][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[s.FlushStreamingOnExit:1]]
+[2025.05.21-11.34.41:234][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2025.05.21-11.34.41:234][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2025.05.21-11.34.41:234][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2025.05.21-11.34.41:234][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[gc.FlushStreamingOnGC:0]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[gc.AllowParallelGC:1]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[gc.MaxObjectsInEditor:25165824]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[gc.CreateGCClusters:1]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[gc.MinGCClusterSize:5]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[gc.AssetClustreringEnabled:0]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[gc.ActorClusteringEnabled:0]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Set CVar [[gc.GarbageEliminationEnabled:1]]
+[2025.05.21-11.34.41:234][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2025.05.21-11.34.41:234][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2025.05.21-11.34.41:234][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2025.05.21-11.34.41:243][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:200]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.TSR.ReprojectionField:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.TSR.Resurrection:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-1.5]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.AOQuality:2]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:300]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HardwareRayTracing:0]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:200]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.RayTracing.Scene.BuildMode:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0.4]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.MaxRoughnessToEvaluateRoughSpecularForFoliage:0.8]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.TonemapMode:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.MinWeight:0]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.EyeAdaptationQuality:2]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.DOF.Gather.ResolutionDivisor:2         ; lower gathering resolution]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.DetailMode:3]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[fx.Niagara.QualityLevel:3]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.Refraction.OffsetQuality:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.DownsampleFactor:1]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.MaxStepCount:512]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.Resolution:512]]
+[2025.05.21-11.34.41:243][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2025.05.21-11.34.41:243][  0]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2025.05.21-11.34.41:244][  0]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2025.05.21-11.34.41:244][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2025.05.21-11.34.41:244][  0]LogConfig: Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2025.05.21-11.34.41:244][  0]LogConfig: Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2025.05.21-11.34.41:244][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2025.05.21-11.34.41:244][  0]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2025.05.21-11.34.41:244][  0]LogConfig: Applying CVar settings from Section [LandscapeQuality@3] File [Scalability]
+[2025.05.21-11.34.41:244][  0]LogRHI: Using Default RHI: D3D12
+[2025.05.21-11.34.41:244][  0]LogRHI: Using Highest Feature Level of D3D12: SM6
+[2025.05.21-11.34.41:244][  0]LogRHI: Loading RHI module D3D12RHI
+[2025.05.21-11.34.41:244][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2025.05.21-11.34.41:244][  0]LogRHI: Checking if RHI D3D12 with Feature Level SM6 is supported by your system.
+[2025.05.21-11.34.41:404][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce RTX 2060 (VendorId: 10de, DeviceId: 1e89, SubSysId: 1e8910de, Revision: 00a1
+[2025.05.21-11.34.41:404][  0]LogD3D12RHI:   Max supported Feature Level 12_2, shader model 6.7, binding tier 3, wave ops supported, atomic64 supported
+[2025.05.21-11.34.41:404][  0]LogD3D12RHI:   Adapter has 5945MB of dedicated video memory, 0MB of dedicated system memory, and 8147MB of shared system memory, 2 output[s]
+[2025.05.21-11.34.41:404][  0]LogD3D12RHI:   Driver Version: 560.94 (internal:32.0.15.6094, unified:560.94)
+[2025.05.21-11.34.41:404][  0]LogD3D12RHI:      Driver Date: 8-14-2024
+[2025.05.21-11.34.41:408][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (VendorId: 1414, DeviceId: 008c, SubSysId: 0000, Revision: 0000
+[2025.05.21-11.34.41:408][  0]LogD3D12RHI:   Max supported Feature Level 12_1, shader model 6.2, binding tier 3, wave ops supported, atomic64 unsupported
+[2025.05.21-11.34.41:408][  0]LogD3D12RHI:   Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8147MB of shared system memory, 0 output[s]
+[2025.05.21-11.34.41:408][  0]LogD3D12RHI: DirectX Agility SDK runtime found.
+[2025.05.21-11.34.41:408][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2025.05.21-11.34.41:408][  0]LogRHI: RHI D3D12 with Feature Level SM6 is supported and will be used.
+[2025.05.21-11.34.41:408][  0]LogInit: Selected Device Profile: [Windows]
+[2025.05.21-11.34.41:408][  0]LogHAL: Display: Platform has ~ 16 GB [17086578688 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2025.05.21-11.34.41:408][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.05.21-11.34.41:408][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.RasterizationMode:Bitmap -> Msdf]]
+[2025.05.21-11.34.41:408][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.ResolutionLevel:2 -> 2]]
+[2025.05.21-11.34.41:408][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2025.05.21-11.34.41:408][  0]LogConfig: Set CVar [[r.DumpShaderDebugInfo:2]]
+[2025.05.21-11.34.41:408][  0]LogConfig: Set CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2025.05.21-11.34.41:408][  0]LogConfig: Set CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2025.05.21-11.34.41:408][  0]LogConfig: CVar [[ds.CADTranslator.Meshing.ActivateThinZoneMeshing:0]] deferred - dummy variable created
+[2025.05.21-11.34.41:408][  0]LogConfig: CVar [[ds.CADTranslator.Stitching.RemoveThinFaces:0]] deferred - dummy variable created
+[2025.05.21-11.34.41:408][  0]LogConfig: Applying CVar settings from Section [Startup_Windows] File [../../../Engine/Config/ConsoleVariables.ini]
+[2025.05.21-11.34.41:408][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2025.05.21-11.34.41:408][  0]LogConfig: Set CVar [[memory.MemoryPressureCriticalThresholdMB:512]]
+[2025.05.21-11.34.41:409][  0]LogInit: Computer: DESKTOP-DN4O5MA
+[2025.05.21-11.34.41:409][  0]LogInit: User: nekitmqwt6vj
+[2025.05.21-11.34.41:409][  0]LogInit: CPU Page size=4096, Cores=6
+[2025.05.21-11.34.41:409][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2025.05.21-11.34.42:175][  0]LogMemory: Process is running as part of a Windows Job with separate resource limits
+[2025.05.21-11.34.42:175][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=23.7GB
+[2025.05.21-11.34.42:175][  0]LogMemory: Platform Memory Stats for Windows
+[2025.05.21-11.34.42:175][  0]LogMemory: Process Physical Memory: 182.86 MB used, 194.34 MB peak
+[2025.05.21-11.34.42:175][  0]LogMemory: Process Virtual Memory: 147.86 MB used, 147.86 MB peak
+[2025.05.21-11.34.42:175][  0]LogMemory: Physical Memory: 8574.85 MB used,  7720.18 MB free, 16295.03 MB total
+[2025.05.21-11.34.42:175][  0]LogMemory: Virtual Memory: 15257.87 MB used,  8973.16 MB free, 24231.03 MB total
+[2025.05.21-11.34.42:175][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2025.05.21-11.34.42:179][  0]LogWindows: WindowsPlatformFeatures enabled
+[2025.05.21-11.34.42:180][  0]LogChaosDD: Chaos Debug Draw Startup
+[2025.05.21-11.34.42:180][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2025.05.21-11.34.42:180][  0]LogInit: Using OS detected language (ru-RU).
+[2025.05.21-11.34.42:180][  0]LogInit: Using OS detected locale (ru-RU).
+[2025.05.21-11.34.42:180][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2025.05.21-11.34.42:180][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2025.05.21-11.34.42:216][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2025.05.21-11.34.42:216][  0]LogWindowsTextInputMethodSystem:   - Русский (Россия) - (Keyboard).
+[2025.05.21-11.34.42:216][  0]LogWindowsTextInputMethodSystem:   - Английский (Соединенное Королевство) - (Keyboard).
+[2025.05.21-11.34.42:216][  0]LogWindowsTextInputMethodSystem:   - Английский (США) - (Keyboard).
+[2025.05.21-11.34.42:216][  0]LogWindowsTextInputMethodSystem:   - Латышский (Латвия) - (Keyboard).
+[2025.05.21-11.34.42:216][  0]LogWindowsTextInputMethodSystem: Activated input method: Латышский (Латвия) - (Keyboard).
+[2025.05.21-11.34.42:229][  0]LogSlate: New Slate User Created. Platform User Id 0, User Index 0, Is Virtual User: 0
+[2025.05.21-11.34.42:230][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2025.05.21-11.34.42:253][  0]LogRHI: Using Default RHI: D3D12
+[2025.05.21-11.34.42:253][  0]LogRHI: Using Highest Feature Level of D3D12: SM6
+[2025.05.21-11.34.42:253][  0]LogRHI: Loading RHI module D3D12RHI
+[2025.05.21-11.34.42:253][  0]LogRHI: Checking if RHI D3D12 with Feature Level SM6 is supported by your system.
+[2025.05.21-11.34.42:253][  0]LogRHI: RHI D3D12 with Feature Level SM6 is supported and will be used.
+[2025.05.21-11.34.42:253][  0]LogD3D12RHI: Display: Creating D3D12 RHI with Max Feature Level SM6
+[2025.05.21-11.34.42:254][  0]LogWindows: Attached monitors:
+[2025.05.21-11.34.42:254][  0]LogWindows:     resolution: 2560x1440, work area: (0, 0) -> (2560, 1400), device: '\\.\DISPLAY1' [PRIMARY]
+[2025.05.21-11.34.42:254][  0]LogWindows:     resolution: 1920x1080, work area: (-1920, 363) -> (0, 1403), device: '\\.\DISPLAY2'
+[2025.05.21-11.34.42:254][  0]LogWindows: Found 2 attached monitors.
+[2025.05.21-11.34.42:254][  0]LogWindows: Gathering driver information using Windows Setup API
+[2025.05.21-11.34.42:254][  0]LogRHI: RHI Adapter Info:
+[2025.05.21-11.34.42:254][  0]LogRHI:             Name: NVIDIA GeForce RTX 2060
+[2025.05.21-11.34.42:254][  0]LogRHI:   Driver Version: 560.94 (internal:32.0.15.6094, unified:560.94)
+[2025.05.21-11.34.42:254][  0]LogRHI:      Driver Date: 8-14-2024
+[2025.05.21-11.34.42:254][  0]LogD3D12RHI:     GPU DeviceId: 0x1e89 (for the marketing name, search the web for "GPU Device Id")
+[2025.05.21-11.34.42:254][  0]LogD3D12RHI: InitD3DDevice: -D3DDebug = off -D3D12GPUValidation = off
+[2025.05.21-11.34.42:327][  0]LogNvidiaAftermath: Aftermath initialized
+[2025.05.21-11.34.42:327][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2025.05.21-11.34.42:377][  0]LogNvidiaAftermath: Aftermath enabled. Active feature flags: 
+[2025.05.21-11.34.42:377][  0]LogNvidiaAftermath:  - Feature: EnableResourceTracking
+[2025.05.21-11.34.42:377][  0]LogD3D12RHI: ID3D12Device1 is supported.
+[2025.05.21-11.34.42:377][  0]LogD3D12RHI: ID3D12Device2 is supported.
+[2025.05.21-11.34.42:377][  0]LogD3D12RHI: ID3D12Device3 is supported.
+[2025.05.21-11.34.42:377][  0]LogD3D12RHI: ID3D12Device4 is supported.
+[2025.05.21-11.34.42:377][  0]LogD3D12RHI: ID3D12Device5 is supported.
+[2025.05.21-11.34.42:377][  0]LogD3D12RHI: ID3D12Device6 is supported.
+[2025.05.21-11.34.42:377][  0]LogD3D12RHI: ID3D12Device7 is supported.
+[2025.05.21-11.34.42:377][  0]LogD3D12RHI: ID3D12Device8 is supported.
+[2025.05.21-11.34.42:377][  0]LogD3D12RHI: ID3D12Device9 is supported.
+[2025.05.21-11.34.42:377][  0]LogD3D12RHI: ID3D12Device10 is supported.
+[2025.05.21-11.34.42:377][  0]LogD3D12RHI: ID3D12Device11 is supported.
+[2025.05.21-11.34.42:377][  0]LogD3D12RHI: ID3D12Device12 is supported.
+[2025.05.21-11.34.42:378][  0]LogD3D12RHI: Bindless resources are supported
+[2025.05.21-11.34.42:378][  0]LogD3D12RHI: Stencil ref from pixel shader is not supported
+[2025.05.21-11.34.42:378][  0]LogD3D12RHI: Raster order views are supported
+[2025.05.21-11.34.42:378][  0]LogD3D12RHI: Wave Operations are supported (wave size: min=32 max=32).
+[2025.05.21-11.34.42:378][  0]LogD3D12RHI: D3D12 ray tracing tier 1.1 and bindless resources are supported.
+[2025.05.21-11.34.42:378][  0]LogD3D12RHI: Mesh shader tier 1.0 is supported
+[2025.05.21-11.34.42:378][  0]LogD3D12RHI: AtomicInt64OnTypedResource is supported
+[2025.05.21-11.34.42:378][  0]LogD3D12RHI: AtomicInt64OnGroupShared is supported
+[2025.05.21-11.34.42:378][  0]LogD3D12RHI: AtomicInt64OnDescriptorHeapResource is supported
+[2025.05.21-11.34.42:378][  0]LogD3D12RHI: Shader Model 6.6 atomic64 is supported
+[2025.05.21-11.34.42:461][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Queue: 0x0000020B7E4ADC80)
+[2025.05.21-11.34.42:461][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Queue: 0x0000020B7E4ADF00)
+[2025.05.21-11.34.42:461][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Queue: 0x0000020B7E4AE180)
+[2025.05.21-11.34.42:461][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2025.05.21-11.34.42:461][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2025.05.21-11.34.42:462][  0]LogRHI: Texture pool is 3261 MB (70% of 4659 MB)
+[2025.05.21-11.34.42:462][  0]LogD3D12RHI: Async texture creation enabled
+[2025.05.21-11.34.42:462][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2025.05.21-11.34.42:478][  0]LogVRS: Current RHI supports per-draw and screenspace Variable Rate Shading
+[2025.05.21-11.34.42:480][  0]LogInit: Initializing FReadOnlyCVARCache
+[2025.05.21-11.34.42:486][  0]LogRendererCore: Ray tracing is enabled (dynamic). Reason: r.RayTracing=1 and r.RayTracing.EnableOnDemand=1.
+[2025.05.21-11.34.42:486][  0]LogRendererCore: Ray tracing shaders are enabled.
+[2025.05.21-11.34.42:487][  0]LogShaderLibrary: Display: Using IoDispatcher for shader code library Global. Total 7584 unique shaders.
+[2025.05.21-11.34.42:487][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library Global
+[2025.05.21-11.34.42:487][  0]LogShaderLibrary: Display: Logical shader library 'Global' has been created as a monolithic library
+[2025.05.21-11.34.42:487][  0]LogTemp: Display: Clearing the OS Cache
+[2025.05.21-11.34.42:494][  0]LogInit: FStereoShaderAspects: --- StereoAspects begin ---
+[2025.05.21-11.34.42:494][  0]LogInit: FStereoShaderAspects: Platform=PCD3D_SM6 (49)
+[2025.05.21-11.34.42:494][  0]LogInit: FStereoShaderAspects: bInstancedStereo = 0
+[2025.05.21-11.34.42:494][  0]LogInit: FStereoShaderAspects: bMobilePlatform = 0
+[2025.05.21-11.34.42:494][  0]LogInit: FStereoShaderAspects: bMobilePostprocessing = 1
+[2025.05.21-11.34.42:494][  0]LogInit: FStereoShaderAspects: bMobileMultiView = 0
+[2025.05.21-11.34.42:494][  0]LogInit: FStereoShaderAspects: bMultiViewportCapable = 1
+[2025.05.21-11.34.42:494][  0]LogInit: FStereoShaderAspects: bInstancedStereoNative = 0
+[2025.05.21-11.34.42:494][  0]LogInit: FStereoShaderAspects: ---
+[2025.05.21-11.34.42:494][  0]LogInit: FStereoShaderAspects: bMobileMultiViewCoreSupport = 0
+[2025.05.21-11.34.42:494][  0]LogInit: FStereoShaderAspects: bMobileMultiViewNative = 0
+[2025.05.21-11.34.42:494][  0]LogInit: FStereoShaderAspects: bMobileMultiViewFallback = 0
+[2025.05.21-11.34.42:494][  0]LogInit: FStereoShaderAspects: ---
+[2025.05.21-11.34.42:494][  0]LogInit: FStereoShaderAspects: bInstancedMultiViewportEnabled = 0
+[2025.05.21-11.34.42:494][  0]LogInit: FStereoShaderAspects: bInstancedStereoEnabled = 0
+[2025.05.21-11.34.42:494][  0]LogInit: FStereoShaderAspects: bMobileMultiViewEnabled = 0
+[2025.05.21-11.34.42:494][  0]LogInit: FStereoShaderAspects: --- StereoAspects end ---
+[2025.05.21-11.34.42:497][  0]LogInit: XR: Instanced Stereo Rendering is Disabled
+[2025.05.21-11.34.42:497][  0]LogInit: XR: MultiViewport is Disabled
+[2025.05.21-11.34.42:497][  0]LogInit: XR: Mobile Multiview is Disabled
+[2025.05.21-11.34.42:499][  0]LogSlate: Using FreeType 2.10.0
+[2025.05.21-11.34.42:499][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2025.05.21-11.34.42:539][  0]LogShaderLibrary: Display: Using IoDispatcher for shader code library Bach. Total 1907 unique shaders.
+[2025.05.21-11.34.42:539][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library Bach
+[2025.05.21-11.34.42:539][  0]LogShaderLibrary: Display: Logical shader library 'Bach' has been created as a monolithic library
+[2025.05.21-11.34.42:539][  0]LogRHI: Could not open FPipelineCacheFile: ../../../Bach/Content/PipelineCaches/Windows/Bach_PCD3D_SM6.stable.upipelinecache
+[2025.05.21-11.34.42:539][  0]LogRHI: Could not open FPipelineCacheFile: ../../../Bach/Content/PipelineCaches/Windows/Bach_PCD3D_SM6.stable.upipelinecache
+[2025.05.21-11.34.42:539][  0]LogShaderLibrary: Display: Tried to open again shader library 'Bach', but could not find new components for it (existing components: 1).
+[2025.05.21-11.34.42:539][  0]LogRHI: Could not open FPipelineCacheFile: ../../../Bach/Content/PipelineCaches/Windows/Bach_PCD3D_SM6.stable.upipelinecache
+[2025.05.21-11.34.42:539][  0]LogInit: Using OS detected language (ru-RU).
+[2025.05.21-11.34.42:539][  0]LogInit: Using OS detected locale (ru-RU).
+[2025.05.21-11.34.42:540][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2025.05.21-11.34.42:540][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2025.05.21-11.34.42:540][  0]LogAssetRegistry: FAssetRegistry took 0.0002 seconds to start up
+[2025.05.21-11.34.42:645][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.21-11.34.42:645][  0]LogFilePackageStore: Updated: NewPackages=976, OldPackages=0, TotalPackages=976
+[2025.05.21-11.34.42:648][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2025.05.21-11.34.42:648][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2025.05.21-11.34.42:649][  0]LogDeviceProfileManager: Active device profile: [00007FF47C860938][0000020B6EC8E010 66] Windows
+[2025.05.21-11.34.42:649][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="Windows"
+[2025.05.21-11.34.42:695][  0]LogConfig: Branch 'EditorPerProjectUserSettings' had been unloaded. Reloading on-demand took 2.34ms
+[2025.05.21-11.34.42:774][  0]LogPackageLocalizationCache: Processed 58 localized package path(s) for 1 prioritized culture(s) in 0.000172 seconds
+[2025.05.21-11.34.42:786][  0]LogConfig: Branch 'GameplayTagsList' had been unloaded. Reloading on-demand took 2.43ms
+[2025.05.21-11.34.42:792][  0]LogConfig: Branch 'TranslationPickerSettings' had been unloaded. Reloading on-demand took 2.39ms
+[2025.05.21-11.34.42:802][  0]LogConfig: Branch 'Mass' had been unloaded. Reloading on-demand took 2.69ms
+[2025.05.21-11.34.42:884][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.05.21-11.34.42:884][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.05.21-11.34.42:908][  0]LogConfig: Applying CVar settings from Section [/Script/NNEDenoiser.NNEDenoiserSettings] File [Engine]
+[2025.05.21-11.34.42:911][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2025.05.21-11.34.42:924][  0]LogMoviePlayer: Initializing movie player
+[2025.05.21-11.34.42:928][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 807E3F088EE34D958000000000009D00 | Instance: BCB97FCE46D88BDC411135BC945DBA68 (DESKTOP-DN4O5MA-7056).
+[2025.05.21-11.34.42:982][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2025.05.21-11.34.42:982][  0]LogNNERuntimeORT: 0: NVIDIA GeForce RTX 2060 (Compute, Graphics)
+[2025.05.21-11.34.42:982][  0]LogNNERuntimeORT: 1: Microsoft Basic Render Driver (Compute, Graphics)
+[2025.05.21-11.34.42:982][  0]LogNNERuntimeORT: No NPU adapter found!
+[2025.05.21-11.34.42:999][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2025.05.21-11.34.43:000][  0]LogMetaSound: MetaSound Engine Initialized
+[2025.05.21-11.34.43:002][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2025.05.21-11.34.43:010][  0]LogUObjectArray: 27615 objects as part of root set at end of initial load.
+[2025.05.21-11.34.43:010][  0]LogUObjectArray: 10 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+[2025.05.21-11.34.43:010][  0]LogUObjectArray: CloseDisregardForGC: 27615/27615 objects in disregard for GC pool
+[2025.05.21-11.34.43:017][  0]LogStreaming: Display: AsyncLoading2 - NotifyRegistrationComplete: Registered 26902 public script object entries (699.99 KB)
+[2025.05.21-11.34.43:018][  0]LogStreaming: Display: AsyncLoading2 - Thread Started: true, IsInitialLoad: false
+[2025.05.21-11.34.43:281][  0]LogEngine: Initializing Engine...
+[2025.05.21-11.34.43:283][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2025.05.21-11.34.43:293][  0]LogNetVersion: Set ProjectVersion to 0.1. Version Checksum will be recalculated on next use.
+[2025.05.21-11.34.43:293][  0]LogInit: Texture streaming: Enabled
+[2025.05.21-11.34.43:293][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2025.05.21-11.34.43:293][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2025.05.21-11.34.43:293][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2025.05.21-11.34.43:294][  0]LogAudio: Display: Audio Device Manager Initialized
+[2025.05.21-11.34.43:294][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2025.05.21-11.34.43:294][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.21-11.34.43:294][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.21-11.34.43:294][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.21-11.34.43:294][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.21-11.34.43:294][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.21-11.34.43:294][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.21-11.34.43:294][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.21-11.34.43:294][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.21-11.34.43:294][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.21-11.34.43:294][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.21-11.34.43:294][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.21-11.34.43:302][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.21-11.34.43:346][  0]LogAudioMixer: Display: Using Audio Hardware Device Динамики (Logitech PRO X Gaming Headset)
+[2025.05.21-11.34.43:347][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.21-11.34.43:347][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.21-11.34.43:347][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.21-11.34.43:349][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.05.21-11.34.43:349][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=1
+[2025.05.21-11.34.43:349][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.05.21-11.34.43:349][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2025.05.21-11.34.43:349][  0]LogInit: FAudioDevice initialized with ID 1.
+[2025.05.21-11.34.43:350][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 1
+[2025.05.21-11.34.43:350][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2025.05.21-11.34.43:744][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled
+[2025.05.21-11.34.43:748][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2025.05.21-11.34.43:749][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.21-11.34.43:750][  0]LogInit: Display: Game Engine Initialized.
+[2025.05.21-11.34.43:756][  0]LogInit: Display: Starting Game.
+[2025.05.21-11.34.43:756][  0]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/TopDown/Maps/MainMenu?Name=Player"
+[2025.05.21-11.34.43:756][  0]LogNet: Browse: /Game/TopDown/Maps/MainMenu?Name=Player
+[2025.05.21-11.34.43:756][  0]LogLoad: LoadMap: /Game/TopDown/Maps/MainMenu?Name=Player
+[2025.05.21-11.34.43:756][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2025.05.21-11.34.43:756][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-11.34.43:757][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-11.34.43:761][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.21-11.34.43:763][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.05.21-11.34.43:769][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2025.05.21-11.34.43:769][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenu
+[2025.05.21-11.34.43:772][  0]LogLoad: Game class is 'BGM_MainMenu_C'
+[2025.05.21-11.34.43:772][  0]LogWorld: Bringing World /Game/TopDown/Maps/MainMenu.MainMenu up for play (max tick rate 0) at 2025.05.21-14.34.43
+[2025.05.21-11.34.43:773][  0]LogWorld: Bringing up level for play took: 0.000862
+[2025.05.21-11.34.43:773][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.05.21-11.34.43:775][  0]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.05.21-11.34.43:775][  0]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2025.05.21-11.34.43:775][  0]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.05.21-11.34.43:776][  0]LogLoad: Took 0.019501 seconds to LoadMap(/Game/TopDown/Maps/MainMenu)
+[2025.05.21-11.34.43:776][  0]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/TopDown/Maps/MainMenu
+[2025.05.21-11.34.43:776][  0]LogSlate: Took 0.000300 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoBold.ufont' (160K)
+[2025.05.21-11.34.43:778][  0]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.43:817][  0]LogNNEDenoiser: ApplySettings: bDenoiserEnabled 1
+[2025.05.21-11.34.43:826][  0]LogNNEDenoiser: Loaded input mapping from NNEDIM_ColorAlbedoNormal_Alpha
+[2025.05.21-11.34.43:826][  0]LogNNEDenoiser: Loaded output mapping from NNEDOM_Output_Alpha
+[2025.05.21-11.34.43:826][  0]LogNNEDenoiser: Try create model instance with runtime NNERuntimeORTDml on RDG...
+[2025.05.21-11.34.43:880][  0]LogNNEDenoiser: Display: Created model instance with runtime NNERuntimeORTDml on RDG
+[2025.05.21-11.34.43:880][  0]LogNNEDenoiser: Create denoiser from asset /NNEDenoiser/NNED_Oidn2-3_Balanced_Alpha.NNED_Oidn2-3_Balanced_Alpha...
+[2025.05.21-11.34.43:881][  0]LogNNEDenoiser: Loaded input mapping from NNEDTIM_ColorAlbedoNormal_Alpha
+[2025.05.21-11.34.43:881][  0]LogNNEDenoiser: Loaded output mapping from NNEDTOM_Output_Alpha
+[2025.05.21-11.34.43:881][  0]LogNNEDenoiser: Try create model instance with runtime NNERuntimeORTDml on RDG...
+[2025.05.21-11.34.43:932][  0]LogNNEDenoiser: Display: Created model instance with runtime NNERuntimeORTDml on RDG
+[2025.05.21-11.34.43:932][  0]LogNNEDenoiser: Create temporal denoiser from asset /NNEDenoiser/NNEDT_Oidn2-3_Balanced_Alpha.NNEDT_Oidn2-3_Balanced_Alpha...
+[2025.05.21-11.34.43:938][  0]LogSlate: Took 0.000469 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.05.21-11.34.43:970][  0]LogRHI: Display: ShaderPipelineCache: Paused Batching. 1
+[2025.05.21-11.34.43:970][  0]LogPakFile: AllPaks IndexSizes: DirectoryHashSize=189980, PathHashSize=16, EntriesSize=32752, TotalSize=222748
+[2025.05.21-11.34.43:970][  0]LogRHI: Display: ShaderPipelineCache: Resumed Batching. 0
+[2025.05.21-11.34.43:970][  0]LogRHI: Display: ShaderPipelineCache: Batching Resumed.
+[2025.05.21-11.34.43:985][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2025.05.21-11.34.43:985][  0]LogLoad: (Engine Initialization) Total time: 3.10 seconds
+[2025.05.21-11.34.44:055][  0]LogRHI: Display: Encountered a new graphics PSO: 257195009
+[2025.05.21-11.34.44:055][  0]LogRHI: Display: Encountered a new graphics PSO: 3127996757
+[2025.05.21-11.34.44:055][  0]LogRHI: Display: Encountered a new graphics PSO: 4257995206
+[2025.05.21-11.34.44:055][  0]LogRHI: Display: Encountered a new graphics PSO: 527783718
+[2025.05.21-11.34.44:055][  0]LogRHI: Display: Encountered a new graphics PSO: 2406479667
+[2025.05.21-11.34.44:055][  0]LogRHI: Display: Encountered a new graphics PSO: 3316590291
+[2025.05.21-11.34.44:055][  0]LogRHI: Display: Encountered a new graphics PSO: 4287528555
+[2025.05.21-11.34.44:055][  0]LogRHI: Display: Encountered a new graphics PSO: 925469924
+[2025.05.21-11.34.44:056][  0]LogRHI: Display: Encountered a new graphics PSO: 1446925621
+[2025.05.21-11.34.44:056][  0]LogRHI: Display: Encountered a new graphics PSO: 2456054138
+[2025.05.21-11.34.44:061][  0]LogRHI: Display: Encountered a new graphics PSO: 834665915
+[2025.05.21-11.34.44:061][  0]LogRHI: Display: Encountered a new graphics PSO: 3964443979
+[2025.05.21-11.34.44:062][  0]LogRHI: Display: Encountered a new graphics PSO: 3153298313
+[2025.05.21-11.34.44:062][  0]LogRHI: Display: Encountered a new graphics PSO: 2091702133
+[2025.05.21-11.34.44:062][  0]LogRHI: Display: Encountered a new graphics PSO: 2854052743
+[2025.05.21-11.34.44:062][  0]LogRHI: Display: Encountered a new graphics PSO: 550835170
+[2025.05.21-11.34.44:062][  0]LogRHI: Display: Encountered a new graphics PSO: 894441342
+[2025.05.21-11.34.44:063][  0]LogRHI: Display: Encountered a new graphics PSO: 4281076527
+[2025.05.21-11.34.44:063][  0]LogRHI: Display: Encountered a new graphics PSO: 4103796502
+[2025.05.21-11.34.44:063][  0]LogRHI: Display: Encountered a new graphics PSO: 931589751
+[2025.05.21-11.34.44:064][  0]LogRHI: Display: Encountered a new graphics PSO: 3160949730
+[2025.05.21-11.34.44:084][  0]LogD3D12RHI: Creating RTPSO with 8 shaders (0 cached, 8 new) took 127.25 ms. Compile time 75.74 ms, link time 51.42 ms.
+[2025.05.21-11.34.44:086][  0]LogD3D12RHI: Creating RTPSO with 21 shaders (0 cached, 21 new) took 125.67 ms. Compile time 81.83 ms, link time 43.80 ms.
+[2025.05.21-11.34.44:122][  0]LogRHI: Display: Encountered a new graphics PSO: 1174220289
+[2025.05.21-11.34.44:125][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2025.05.21-11.34.44:125][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="1000"
+[2025.05.21-11.34.44:127][  0]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:129][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-11.34.44:130][  0]LogTrace: Display: Display Control listening on port 1985
+[2025.05.21-11.34.44:133][  1]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:157][  2]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:164][  3]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:173][  4]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:184][  5]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:195][  6]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:205][  7]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:226][  8]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:231][  9]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:241][ 10]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:253][ 11]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:263][ 12]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:273][ 13]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:283][ 14]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:292][ 15]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:304][ 16]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:311][ 17]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:318][ 18]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:326][ 19]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:334][ 20]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:341][ 21]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:348][ 22]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:356][ 23]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:364][ 24]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:372][ 25]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:379][ 26]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:387][ 27]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:394][ 28]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:401][ 29]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:409][ 30]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:416][ 31]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:424][ 32]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:431][ 33]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:439][ 34]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:455][ 35]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:457][ 36]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:464][ 37]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:471][ 38]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:479][ 39]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:488][ 40]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:496][ 41]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:504][ 42]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:512][ 43]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:521][ 44]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:528][ 45]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:537][ 46]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:544][ 47]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:553][ 48]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:560][ 49]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:568][ 50]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:575][ 51]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:583][ 52]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:591][ 53]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:598][ 54]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:606][ 55]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:625][ 56]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:631][ 57]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:637][ 58]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:644][ 59]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:651][ 60]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:659][ 61]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:666][ 62]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:674][ 63]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:681][ 64]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:689][ 65]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:696][ 66]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:704][ 67]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:711][ 68]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:718][ 69]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:726][ 70]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:733][ 71]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:741][ 72]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:749][ 73]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:756][ 74]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:763][ 75]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:771][ 76]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:779][ 77]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:787][ 78]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:794][ 79]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:802][ 80]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:810][ 81]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:818][ 82]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:826][ 83]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:834][ 84]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:841][ 85]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:848][ 86]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:856][ 87]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:863][ 88]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:870][ 89]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:878][ 90]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:886][ 91]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:893][ 92]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:900][ 93]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:908][ 94]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:915][ 95]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:923][ 96]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:930][ 97]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:938][ 98]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:945][ 99]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:953][100]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:960][101]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:968][102]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:975][103]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:983][104]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:993][105]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.44:998][106]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:005][107]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:013][108]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:020][109]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:029][110]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:037][111]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:045][112]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:053][113]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:061][114]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:069][115]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:077][116]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:085][117]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:094][118]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:102][119]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:110][120]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:118][121]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:126][122]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:135][123]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:143][124]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:151][125]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:160][126]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:167][127]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:174][128]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:181][129]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:188][130]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:196][131]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:204][132]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:212][133]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:220][134]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:228][135]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:236][136]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:244][137]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:252][138]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:259][139]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:267][140]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:275][141]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:283][142]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:291][143]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:299][144]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:307][145]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:314][146]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:322][147]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:330][148]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:338][149]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:346][150]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:354][151]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:362][152]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:370][153]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:377][154]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:385][155]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:393][156]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:401][157]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:409][158]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:417][159]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:425][160]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:432][161]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:441][162]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:449][163]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:457][164]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:465][165]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:473][166]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:483][167]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:491][168]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:498][169]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:506][170]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:513][171]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:521][172]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:529][173]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:537][174]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:545][175]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:553][176]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:560][177]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:568][178]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:576][179]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:584][180]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:592][181]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:599][182]LogStreaming: Warning: Failed to read file '../../../Bach/Saved/SaveGames/Record.sav' error.
+[2025.05.21-11.34.45:608][183]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.05.21-11.34.45:608][183]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2025.05.21-11.34.45:608][183]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/TopDown/Maps/TopDownMap?Name=Player"
+[2025.05.21-11.34.45:608][183]LogNet: Browse: /Game/TopDown/Maps/TopDownMap?Name=Player
+[2025.05.21-11.34.45:608][183]LogLoad: LoadMap: /Game/TopDown/Maps/TopDownMap?Name=Player
+[2025.05.21-11.34.45:608][183]LogWorld: BeginTearingDown for /Game/TopDown/Maps/MainMenu
+[2025.05.21-11.34.45:609][183]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-11.34.45:609][183]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-11.34.45:636][183]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.21-11.34.45:637][183]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.05.21-11.34.45:639][183]LogStreaming: Display: FlushAsyncLoading(84): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.21-11.34.45:659][183]LogAudio: Display: Audio Device (ID: 1) registered with world 'TopDownMap'.
+[2025.05.21-11.34.45:659][183]LogChaosDD: Creating Chaos Debug Draw Scene for world TopDownMap
+[2025.05.21-11.34.45:660][183]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.21-11.34.45:660][183]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.21-11.34.45:660][183]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/Maps/TopDownMap.TopDownMap, World Type = Game, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 1, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.21-11.34.45:660][183]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.21-11.34.45:660][183]LogWorldPartition: Display: WorldPartition initialize took 125 us
+[2025.05.21-11.34.45:661][183]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.05.21-11.34.45:667][183]LogWorld: Bringing World /Game/TopDown/Maps/TopDownMap.TopDownMap up for play (max tick rate 0) at 2025.05.21-14.34.45
+[2025.05.21-11.34.45:668][183]LogWorld: Bringing up level for play took: 0.006939
+[2025.05.21-11.34.45:668][183]LogNavigation: Warning: NavData RegistrationFailed_AgentAlreadySupported, specified agent type already has its navmesh implemented.
+[2025.05.21-11.34.45:668][183]LogNavigation: Warning: NavData RegistrationFailed_AgentNotValid, NavData instance contains navmesh that doesn't support any of expected agent types.
+[2025.05.21-11.34.45:883][183]LogLoad: Took 0.275087 seconds to LoadMap(/Game/TopDown/Maps/TopDownMap)
+[2025.05.21-11.34.45:883][183]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/TopDown/Maps/TopDownMap
+[2025.05.21-11.34.45:887][183]LogRHI: Display: Encountered a new ray tracing PSO: 81397570
+[2025.05.21-11.34.45:893][184]LogRHI: Display: Encountered a new compute PSO: 4175915472
+[2025.05.21-11.34.45:893][184]LogRHI: Display: Encountered a new graphics PSO: 3441735275
+[2025.05.21-11.34.45:893][184]LogRHI: Display: Encountered a new graphics PSO: 3263951767
+[2025.05.21-11.34.45:893][184]LogRHI: Display: Encountered a new graphics PSO: 3559039093
+[2025.05.21-11.34.45:893][184]LogRHI: Display: Encountered a new compute PSO: 2182077875
+[2025.05.21-11.34.45:893][184]LogRHI: Display: Encountered a new graphics PSO: 1049509752
+[2025.05.21-11.34.45:893][184]LogRHI: Display: Encountered a new graphics PSO: 2400923095
+[2025.05.21-11.34.45:893][184]LogRHI: Display: Encountered a new graphics PSO: 1741547207
+[2025.05.21-11.34.45:894][184]LogRHI: Display: Encountered a new graphics PSO: 589953965
+[2025.05.21-11.34.45:901][184]LogRHI: Display: Encountered a new graphics PSO: 3820103937
+[2025.05.21-11.34.45:901][184]LogRHI: Display: Encountered a new graphics PSO: 3583736902
+[2025.05.21-11.34.45:901][184]LogRHI: Display: Encountered a new graphics PSO: 2030652053
+[2025.05.21-11.34.45:901][184]LogRHI: Display: Encountered a new compute PSO: 1297932209
+[2025.05.21-11.34.45:901][185]LogRHI: Display: Encountered a new graphics PSO: 2147617993
+[2025.05.21-11.34.50:343][683]LogConsoleManager: Warning: Performance warning: Console object named 'r.Lumen.Ortho.OverrideMeshDFTraceDistances' shows many (500) FindConsoleObject() calls (consider caching e.g. using static)
+[2025.05.21-11.35.28:587][981]LogBlueprintUserMessages: [BP_TopDownCharacter_C_2147482395] Game Saved
+[2025.05.21-11.35.28:594][982]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/TopDown/Maps/TopDownMap1"
+[2025.05.21-11.35.28:594][982]LogNet: Browse: /Game/TopDown/Maps/TopDownMap1
+[2025.05.21-11.35.28:594][982]LogLoad: LoadMap: /Game/TopDown/Maps/TopDownMap1
+[2025.05.21-11.35.28:594][982]LogWorld: BeginTearingDown for /Game/TopDown/Maps/TopDownMap
+[2025.05.21-11.35.28:596][982]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-11.35.28:596][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-11.35.28:596][982]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/Maps/TopDownMap.TopDownMap
+[2025.05.21-11.35.28:603][982]LogRHI: Display: Encountered a new graphics PSO: 1911018763
+[2025.05.21-11.35.28:620][982]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.21-11.35.28:623][982]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.05.21-11.35.28:628][982]LogStreaming: Display: FlushAsyncLoading(85): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.21-11.35.28:657][982]LogAudio: Display: Audio Device (ID: 1) registered with world 'TopDownMap1'.
+[2025.05.21-11.35.28:657][982]LogChaosDD: Creating Chaos Debug Draw Scene for world TopDownMap1
+[2025.05.21-11.35.28:658][982]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.21-11.35.28:658][982]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.21-11.35.28:658][982]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/Maps/TopDownMap1.TopDownMap1, World Type = Game, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 1, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.21-11.35.28:658][982]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.21-11.35.28:658][982]LogWorldPartition: Display: WorldPartition initialize took 42 us (total: 168 us)
+[2025.05.21-11.35.28:658][982]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.05.21-11.35.28:659][982]LogWorld: Bringing World /Game/TopDown/Maps/TopDownMap1.TopDownMap1 up for play (max tick rate 0) at 2025.05.21-14.35.28
+[2025.05.21-11.35.28:659][982]LogWorld: Bringing up level for play took: 0.000419
+[2025.05.21-11.35.28:659][982]LogNavigation: Warning: Recreating dtNavMesh instance due mismatch in number of bytes required to store serialized maxTiles (128, 7 bits) vs calculated maxtiles (3528, 12 bits)
+[2025.05.21-11.35.28:660][982]LogBlueprintUserMessages: [Dungeon_Generator_C_UAID_3C7C3F2E1245336402_1410714074] 12728
+[2025.05.21-11.35.29:007][982]LogLoad: Took 0.411757 seconds to LoadMap(/Game/TopDown/Maps/TopDownMap1)
+[2025.05.21-11.35.29:007][982]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/TopDown/Maps/TopDownMap1
+[2025.05.21-11.35.29:019][983]LogRHI: Display: Encountered a new graphics PSO: 2605591881
+[2025.05.21-11.35.30:062][  9]LogBlueprintUserMessages: [Dungeon_Generator_C_UAID_3C7C3F2E1245336402_1410714074] Complete
+[2025.05.21-11.35.32:888][304]LogRHI: Display: Encountered a new graphics PSO: 883473710
+[2025.05.21-11.36.32:982][569]LogRHI: Display: Encountered a new graphics PSO: 3525413239
+[2025.05.21-11.36.58:905][271]LogSlate: Took 0.000377 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoRegular.ufont' (155K)
+[2025.05.21-11.36.58:906][271]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/DroidSansMono.ufont' (77K)
+[2025.05.21-11.37.00:395][425]LogBlueprintUserMessages: [BP_TopDownCharacter_C_2147482286] Game Saved
+[2025.05.21-11.37.00:395][425]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/TopDown/Maps/TopDownMap"
+[2025.05.21-11.37.00:395][425]LogNet: Browse: /Game/TopDown/Maps/TopDownMap
+[2025.05.21-11.37.00:395][425]LogLoad: LoadMap: /Game/TopDown/Maps/TopDownMap
+[2025.05.21-11.37.00:395][425]LogWorld: BeginTearingDown for /Game/TopDown/Maps/TopDownMap1
+[2025.05.21-11.37.00:397][425]LogWorld: UWorld::CleanupWorld for TopDownMap1, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-11.37.00:398][425]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-11.37.00:398][425]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/Maps/TopDownMap1.TopDownMap1
+[2025.05.21-11.37.00:430][425]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.21-11.37.00:440][425]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.05.21-11.37.00:446][425]LogStreaming: Display: FlushAsyncLoading(86): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.21-11.37.00:452][425]LogAudio: Display: Audio Device (ID: 1) registered with world 'TopDownMap'.
+[2025.05.21-11.37.00:452][425]LogChaosDD: Creating Chaos Debug Draw Scene for world TopDownMap
+[2025.05.21-11.37.00:453][425]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.21-11.37.00:453][425]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.21-11.37.00:453][425]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/Maps/TopDownMap.TopDownMap, World Type = Game, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 1, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.21-11.37.00:453][425]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.21-11.37.00:453][425]LogWorldPartition: Display: WorldPartition initialize took 52 us (total: 220 us)
+[2025.05.21-11.37.00:453][425]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.05.21-11.37.00:459][425]LogWorld: Bringing World /Game/TopDown/Maps/TopDownMap.TopDownMap up for play (max tick rate 0) at 2025.05.21-14.37.00
+[2025.05.21-11.37.00:459][425]LogWorld: Bringing up level for play took: 0.006176
+[2025.05.21-11.37.00:460][425]LogNavigation: Warning: NavData RegistrationFailed_AgentAlreadySupported, specified agent type already has its navmesh implemented.
+[2025.05.21-11.37.00:460][425]LogNavigation: Warning: NavData RegistrationFailed_AgentNotValid, NavData instance contains navmesh that doesn't support any of expected agent types.
+[2025.05.21-11.37.00:675][425]LogLoad: Took 0.279655 seconds to LoadMap(/Game/TopDown/Maps/TopDownMap)
+[2025.05.21-11.37.00:675][425]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/TopDown/Maps/TopDownMap
+[2025.05.21-11.37.11:155][615]LogBlueprintUserMessages: [BP_TopDownCharacter_C_2147481986] Game Saved
+[2025.05.21-11.37.11:155][615]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/TopDown/Maps/MainMenu"
+[2025.05.21-11.37.11:155][615]LogNet: Browse: /Game/TopDown/Maps/MainMenu
+[2025.05.21-11.37.11:155][615]LogLoad: LoadMap: /Game/TopDown/Maps/MainMenu
+[2025.05.21-11.37.11:155][615]LogWorld: BeginTearingDown for /Game/TopDown/Maps/TopDownMap
+[2025.05.21-11.37.11:156][615]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-11.37.11:156][615]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-11.37.11:156][615]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/Maps/TopDownMap.TopDownMap
+[2025.05.21-11.37.11:181][615]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.21-11.37.11:184][615]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.05.21-11.37.11:189][615]LogStreaming: Display: FlushAsyncLoading(87): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.21-11.37.11:191][615]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2025.05.21-11.37.11:191][615]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenu
+[2025.05.21-11.37.11:192][615]LogLoad: Game class is 'BGM_MainMenu_C'
+[2025.05.21-11.37.11:192][615]LogWorld: Bringing World /Game/TopDown/Maps/MainMenu.MainMenu up for play (max tick rate 0) at 2025.05.21-14.37.11
+[2025.05.21-11.37.11:192][615]LogWorld: Bringing up level for play took: 0.000238
+[2025.05.21-11.37.11:193][615]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.05.21-11.37.11:194][615]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.05.21-11.37.11:194][615]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2025.05.21-11.37.11:194][615]LogLoad: Took 0.039037 seconds to LoadMap(/Game/TopDown/Maps/MainMenu)
+[2025.05.21-11.37.11:194][615]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/TopDown/Maps/MainMenu
+[2025.05.21-11.37.12:123][733]Closing by request
+[2025.05.21-11.37.12:123][733]LogWindows: FPlatformMisc::RequestExit(0, UGameEngine::HandleExitCommand)
+[2025.05.21-11.37.12:123][733]LogWindows: FPlatformMisc::RequestExitWithStatus(0, 0, UGameEngine::HandleExitCommand)
+[2025.05.21-11.37.12:123][733]LogCore: Engine exit requested (reason: Win RequestExit)
+[2025.05.21-11.37.12:131][734]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.05.21-11.37.12:147][734]LogInit: Display: PreExit Game.
+[2025.05.21-11.37.12:148][734]LogWorld: BeginTearingDown for /Game/TopDown/Maps/MainMenu
+[2025.05.21-11.37.12:148][734]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-11.37.12:148][734]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-11.37.12:356][734]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.05.21-11.37.12:356][734]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.05.21-11.37.12:356][734]LogAudio: Display: Audio Device unregistered from world 'MainMenu'.
+[2025.05.21-11.37.12:356][734]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.05.21-11.37.12:379][734]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.05.21-11.37.12:380][734]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.05.21-11.37.12:385][734]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.05.21-11.37.12:385][734]LogAudio: Display: Audio Device Manager Shutdown
+[2025.05.21-11.37.12:385][734]LogSlate: Request Window 'Dungeons Game about Dungeons ' being destroyed
+[2025.05.21-11.37.12:386][734]LogSlate: Window 'Dungeons Game about Dungeons ' being destroyed
+[2025.05.21-11.37.12:386][734]LogWindowsTextInputMethodSystem: Activated input method: Латышский (Латвия) - (Keyboard).
+[2025.05.21-11.37.12:390][734]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.05.21-11.37.12:390][734]LogExit: Preparing to exit.
+[2025.05.21-11.37.12:390][734]LogMoviePlayer: Shutting down movie player
+[2025.05.21-11.37.12:395][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.21-11.37.12:396][734]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.05.21-11.37.12:399][734]LogExit: Game engine shut down
+[2025.05.21-11.37.12:420][734]LogExit: Object subsystem successfully closed.
+[2025.05.21-11.37.12:462][734]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.05.21-11.37.12:494][734]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.05.21-11.37.12:495][734]LogNFORDenoise: NFORDenoise function shutting down
+[2025.05.21-11.37.12:495][734]RenderDocPlugin: plugin has been unloaded.
+[2025.05.21-11.37.12:495][734]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.05.21-11.37.12:495][734]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.05.21-11.37.12:495][734]LogPakFile: Destroying PakPlatformFile
+[2025.05.21-11.37.12:889][734]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.05.21-11.37.12:894][734]LogExit: Exiting.
+[2025.05.21-11.37.12:903][734]Log file closed, 05/21/25 14:37:12

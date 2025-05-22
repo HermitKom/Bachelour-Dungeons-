@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\nekit_mqwt6vj\\documents\\unreal projects\\bach\\intermediate\\source\\bach.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\nekit_mqwt6vj\\documents\\unreal projects\\bach\\intermediate\\build\\win64\\x64\\bach\\development\\core\\sharedpch.core.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\nekit_mqwt6vj\\documents\\unreal projects\\bach\\intermediate\\build\\win64\\x64\\unrealgame\\development\\bach\\definitions.bach.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

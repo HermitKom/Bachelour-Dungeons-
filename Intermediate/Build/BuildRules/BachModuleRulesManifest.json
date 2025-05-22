@@ -1,0 +1,10 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\nekit_mqwt6vj\\Documents\\Unreal Projects\\Bach\\Intermediate\\Source\\Bach.Build.cs",
+		"C:\\Users\\nekit_mqwt6vj\\Documents\\Unreal Projects\\Bach\\Intermediate\\Source\\Bach.Target.cs",
+		"C:\\Users\\nekit_mqwt6vj\\Documents\\Unreal Projects\\Bach\\Intermediate\\Source\\BachClient.Target.cs",
+		"C:\\Users\\nekit_mqwt6vj\\Documents\\Unreal Projects\\Bach\\Intermediate\\Source\\BachEditor.Target.cs",
+		"C:\\Users\\nekit_mqwt6vj\\Documents\\Unreal Projects\\Bach\\Intermediate\\Source\\BachServer.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}
