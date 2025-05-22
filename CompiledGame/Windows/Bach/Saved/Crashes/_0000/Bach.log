@@ -1,0 +1,13 @@
+Initializing PakPlatformFile
+Reading toc: ../../../Bach/Content/Paks/global.utoc
+Toc loaded : ../../../Bach/Content/Paks/global.utoc, Id=ffffffffffffffff, Order=0, EntryCount=1, SignatureHash=0000000000000000000000000000000000000000
+Mounting container '../../../Bach/Content/Paks/global.utoc' in location slot 0
+Initialized I/O dispatcher file backend. Mounted the global container: ../../../Bach/Content/Paks/global.utoc
+Found Pak file ../../../Bach/Content/Paks/Bach-Windows.pak attempting to mount.
+Mounting pak file ../../../Bach/Content/Paks/Bach-Windows.pak.
+Reading toc: ../../../Bach/Content/Paks/Bach-Windows.utoc
+Toc loaded : ../../../Bach/Content/Paks/Bach-Windows.utoc, Id=33c30b75e1f65bb5, Order=4, EntryCount=2364, SignatureHash=0000000000000000000000000000000000000000
+appError called: Assertion failed: InPos <= FileSize [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformFile.cpp] [Line: 376] 
+
+
+Windows GetLastError: Операция успешно завершена. (0)

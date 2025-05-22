@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>8DCA54B1496B7BA86B0F2D9E9FD055B6</ExecutionGuid>
+<CrashGUID>_0000</CrashGUID>
+<IsEnsure>false</IsEnsure>
+<IsStall>false</IsStall>
+<IsAssert>true</IsAssert>
+<CrashType>Assert</CrashType>
+<ErrorMessage>Assertion failed: InPos &lt;= FileSize [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformFile.cpp] [Line: 376] 
+
+</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<ProcessId>0</ProcessId>
+<SecondsSinceStart>0</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsWithDebugInfo>false</IsWithDebugInfo>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE-Bach</GameName>
+<ExecutableName></ExecutableName>
+<BuildConfiguration></BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName></PlatformName>
+<PlatformFullName></PlatformFullName>
+<PlatformNameIni></PlatformNameIni>
+<EngineMode></EngineMode>
+<EngineModeEx></EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion></EngineVersion>
+<EngineCompatibleVersion></EngineCompatibleVersion>
+<CommandLine></CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale></AppDefaultLocale>
+<BuildVersion></BuildVersion>
+<Symbols></Symbols>
+<IsUERelease>false</IsUERelease>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir></BaseDir>
+<RootDir></RootDir>
+<MachineId></MachineId>
+<LoginId></LoginId>
+<EpicAccountId></EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>0</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>0</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor></Misc.CPUVendor>
+<Misc.CPUBrand></Misc.CPUBrand>
+<Misc.PrimaryGPUBrand></Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor></Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<Misc.AnticheatProvider></Misc.AnticheatProvider>
+<MemoryStats.TotalPhysical>17086578688</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>25408077824</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>9824346112</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>16923545600</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>135942144</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>142299136</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>50634752</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>58179584</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>5</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+
+Bach      0x00007ff70bc10000 + 183667b         
+Bach      0x00007ff70bc10000 + 43cc569         
+Bach      0x00007ff70bc10000 + 43c28bd         
+Bach      0x00007ff70bc10000 + 43c39dc         
+Bach      0x00007ff70bc10000 + 43c47ea         
+Bach      0x00007ff70bc10000 + 43be144         
+Bach      0x00007ff70bc10000 + 8d7129b         
+Bach      0x00007ff70bc10000 + 8d7831f         
+Bach      0x00007ff70bc10000 + 8d6f5b2         
+Bach      0x00007ff70bc10000 + 8d6f8aa         
+Bach      0x00007ff70bc10000 + 8d725a2         
+Bach      0x00007ff70bc10000 + 8d7f4b4         
+Bach      0x00007ff70bc10000 + d66d60a         
+KERNEL32  0x00007ffdeb8e0000 + 17374           
+</PCallStack>
+<PCallStackHash>15425B8A75DCDB74B3B4D44655D672F58C3CAE0E</PCallStackHash>
+<Threads><Thread><CallStack></CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>0</ThreadID>
+<ThreadName>GameThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffdebe30000 + 9db74           
+KERNELBASE  0x00007ffde98a0000 + 4d64e           
+Bach        0x00007ff70bc10000 + 1490038         
+Bach        0x00007ff70bc10000 + 18a7438         
+Bach        0x00007ff70bc10000 + 189ea9f         
+KERNEL32    0x00007ffdeb8e0000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11916</ThreadID>
+<ThreadName>FHeartBeatThread</ThreadName>
+</Thread>
+</Threads>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<PlatformIsRunningWine>false</PlatformIsRunningWine>
+<IsRunningOnBattery>false</IsRunningOnBattery>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+<CrashTrigger>0</CrashTrigger>
+</PlatformProperties>
+<EngineData>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
